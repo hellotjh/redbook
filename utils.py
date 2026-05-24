@@ -1,10 +1,8 @@
-from langchain_openai import ChatOpenAI
 from prompt_template import system_template_text,user_template_text
 from langchain_core.prompts import ChatPromptTemplate
-import os
-from langchain.memory import ConversationBufferMemory
 from langchain_core.output_parsers import PydanticOutputParser
 from xiaohongshu_model import Xiaohongshu
+from langchain_openai import ChatOpenAI
 
 # 下面是早期聊天记忆功能的测试代码，目前小红书生成主流程没有使用。
 # memory = ConversationBufferMemory(return_messages=True)
