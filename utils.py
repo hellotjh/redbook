@@ -1,4 +1,3 @@
-from langchain.chains import ConversationChain
 from langchain_openai import ChatOpenAI
 from prompt_template import system_template_text,user_template_text
 from langchain_core.prompts import ChatPromptTemplate
